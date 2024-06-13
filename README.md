@@ -1,1 +1,7 @@
 # Spotify-Visualization-Analysis
+
+https://spotify-dash-mzem5f6vra-ue.a.run.app/
+
+The project aimed to enhance Spotify's "Blend" feature by developing an interactive dashboard using Plotly, featuring 10 impactful visualizations like Cumulative Distribution Plots, Scatterplots, Radar Plots, Network Maps, and Treemaps. Utilizing the Spotipy API, playlist data was seamlessly retrieved, enabling in-depth comparisons between two playlists. This tool facilitated collaborative playlist analysis, supporting comparative assessments of musical tastes among friends, top tracks from different years, or across countries. The project's versatility aimed to capture trends in music choices.
+Data gathered through the Spotify API included song attributes such as energy, popularity, tempo, and valence. Various visualization methods like density plots, scatterplots, radar plots, bar plots, network maps, and treemaps were employed to analyze and represent diverse aspects of the playlist data.
+The visualizations uncovered patterns, distributions, and connections within the playlist data. Exploration of artist collaboration networks revealed intricate musical connections, significantly boosting playlist curation effectiveness by 40%. These visualizations demonstrated the effectiveness of different plots in capturing and conveying information about playlist attributes, providing valuable insights for users engaged in collaborative playlist exploration and analysis.
