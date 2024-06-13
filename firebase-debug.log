@@ -1,0 +1,93 @@
+[debug] [2024-01-04T17:49:52.763Z] ----------------------------------------------------------------------
+[debug] [2024-01-04T17:49:52.764Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\laxmi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-01-04T17:49:52.764Z] CLI Version:   13.0.2
+[debug] [2024-01-04T17:49:52.765Z] Platform:      win32
+[debug] [2024-01-04T17:49:52.765Z] Node Version:  v20.9.0
+[debug] [2024-01-04T17:49:52.765Z] Time:          Thu Jan 04 2024 12:49:52 GMT-0500 (Eastern Standard Time)
+[debug] [2024-01-04T17:49:52.765Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-04T17:49:52.767Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-04T17:49:52.768Z] > authorizing via signed-in user (laxmikantmkabra@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\.Personal\MSDS\Sem - III\Data Visualization\data-viz-project\Other Data
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-01-04T17:50:36.526Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-01-04T17:50:36.527Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"spotify-visualization","name":"dviz"}
+[debug] [2024-01-04T17:50:36.910Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2024-01-04T17:50:36.910Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2024-01-04T17:50:36.914Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at responseToError (C:\Users\laxmi\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\laxmi\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:292:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID spotify-visualization. Please try again with a unique project ID.
+[debug] [2024-01-04T17:57:26.699Z] ----------------------------------------------------------------------
+[debug] [2024-01-04T17:57:26.701Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\laxmi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-01-04T17:57:26.701Z] CLI Version:   13.0.2
+[debug] [2024-01-04T17:57:26.701Z] Platform:      win32
+[debug] [2024-01-04T17:57:26.701Z] Node Version:  v20.9.0
+[debug] [2024-01-04T17:57:26.701Z] Time:          Thu Jan 04 2024 12:57:26 GMT-0500 (Eastern Standard Time)
+[debug] [2024-01-04T17:57:26.701Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-04T17:57:26.704Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-04T17:57:26.704Z] > authorizing via signed-in user (laxmikantmkabra@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\.Personal\MSDS\Sem - III\Data Visualization\data-viz-project\Other Data
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-01-04T17:57:50.508Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-01-04T17:57:50.508Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"spotify-playlist-visualization","name":"dviz"}
+[debug] [2024-01-04T17:57:50.986Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2024-01-04T17:57:50.986Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/cp.7613544048818811976"}
+[debug] [2024-01-04T17:57:50.988Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7613544048818811976 [none]
+[debug] [2024-01-04T17:57:51.483Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7613544048818811976 200
+[debug] [2024-01-04T17:57:51.483Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7613544048818811976 {"name":"operations/cp.7613544048818811976","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","ready":true},"done":true,"error":{"code":9,"message":"Callers must accept Terms of Service","details":[{"@type":"type.googleapis.com/google.rpc.PreconditionFailure","violations":[{"type":"TOS","subject":"cloud","description":"Callers must accept Terms of Service"}]}]}}
+[debug] [2024-01-04T17:57:51.485Z] FirebaseError: Callers must accept Terms of Service
+    at OperationPoller.poll (C:\Users\laxmi\AppData\Roaming\npm\node_modules\firebase-tools\lib\operation-poller.js:24:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createCloudProject (C:\Users\laxmi\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:186:29)
+    at async createFirebaseProjectAndLog (C:\Users\laxmi\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:45:9)
+    at async promptAndCreateNewProject (C:\Users\laxmi\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:32:12)
+    at async doSetup (C:\Users\laxmi\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:88:27)
+    at async init (C:\Users\laxmi\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:37:9)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
