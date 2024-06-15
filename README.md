@@ -1,6 +1,4 @@
-<img width="1275" alt="image" src="https://github.com/LaxmikantKabra/Spotify-Visualization-Analysis/assets/143458925/a3a5becf-ec63-48ef-8f65-5ba4fa02d532"># Spotify Playlist Analysis and Recommendation Dashboard
-
-## Project Overview
+# Spotify Playlist Analysis and Recommendation Dashboard
 
 This project aims to leverage Spotify data to compare and analyze two playlists. It identifies common trends and recommends new songs through various visualizations. The main goal is to provide an interactive dashboard that helps users understand their music tastes and discover new music based on shared interests.
 
