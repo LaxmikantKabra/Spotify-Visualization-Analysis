@@ -32,6 +32,6 @@ This project aims to leverage Spotify data to compare and analyze two playlists.
 <p align="center">
   <img src="images/viz6.png" alt="Dashboard Screenshot" width="85%">
   <br> <br> <br>
-  <img src="images/viz7" alt="Dashboard Screenshot" width="85%">
+  <img src="images/viz7.png" alt="Dashboard Screenshot" width="85%">
 </p>
 <br> <br>
