@@ -2,7 +2,7 @@
 
 This project aims to leverage Spotify data to compare and analyze two playlists. It identifies common trends and recommends new songs through various visualizations. The main goal is to provide an interactive dashboard that helps users understand their music tastes and discover new music based on shared interests.
 
-## Dashboard Link [LINK](https://spotify-dash-mzem5f6vra-ue.a.run.app/)
+## [Dashboard Link](https://spotify-dash-mzem5f6vra-ue.a.run.app/)
 
 ## You can access the interactive dashboard [LINK](https://spotify-dash-mzem5f6vra-ue.a.run.app/).
 
