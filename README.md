@@ -1,32 +1,41 @@
-# Spotify Playlist Analysis and Recommendation Dashboard
+# [Spotify Playlist comparison, analysis and Recommendation Dashboard](https://spotify-dash-mzem5f6vra-ue.a.run.app/)
 
-This project aims to leverage Spotify data to compare and analyze two playlists. It identifies common trends and recommends new songs through various visualizations. The main goal is to provide an interactive dashboard that helps users understand their music tastes and discover new music based on shared interests.
+## Overview
+This project leverages Spotify data to compare and analyze two different playlists, exploring their similarities and differences. By utilizing various visualizations, the aim is to identify common trends and provide listeners with tailored recommendations for new songs. The primary goal is to create an interactive dashboard that helps users understand their music tastes and discover new music based on shared interests.
 
-## [Dashboard Link](https://spotify-dash-mzem5f6vra-ue.a.run.app/)
 
-## You can access the interactive dashboard [LINK](https://spotify-dash-mzem5f6vra-ue.a.run.app/).
+## Dataset
+The dataset is sourced from Spotify's API, capturing details about tracks, artists, genres, and various musical attributes such as popularity, tempo, and energy. Key columns include:
+- Track Name
+- Artist(s)
+- Genres
+- Song Popularity
+- Energy
+- Acousticness
+- Valence
 
-## Visualizations
+## Data Architecture
+A pipeline is established to gather playlist hyperlinks, extract playlist data from Spotify, and perform comparative analysis. This architecture facilitates seamless data retrieval and analysis, allowing for efficient exploration of musical attributes.
 
-### Static Visuals
+## Tools Used
+- Python (Pandas, NumPy)
+- Data Visualization Libraries (Matplotlib, Seaborn, Plotly)
+- Spotify API
+- Jupyter Notebook for analysis and visualization
 
-1. **Scatterplot**: Compares song durations between the two playlists.
-2. **Histogram**: Shows the distribution of song durations.
-3. **Parallel Coordinate Plots**: Compares song features across different popularity levels.
-4. **Treemaps**: Represents the genre distribution of artists.
-5. **Word Clouds**: Shows the most common music genres.
-6. **Radar Chart**: Compares mean values of selected song features.
-7. **Violin Plot**: Compares the distribution of song popularity.
-8. **Box Plot**: Visualizes the distribution of song durations across genres.
+## Methods
+### Algorithms
+- Linear Regression for trend analysis
+- K-means Clustering for grouping similar tracks
 
-### Interactive Visuals
-
-1. **Cumulative Distribution Plot**: Compares various numerical continuous variables.
-2. **Dynamic Scatterplot**: Allows users to control the variables on axes and the size of scatter points.
-3. **Bubble Chart**: Shows top genres by count in both playlists.
-4. **Network Map**: Displays artist collaborations.
-5. **Treemaps for Recommendations**: Shows top new recommended songs from common genres and artists.
-6. **Interactive Scatterplot for New Playlist**: Visualizes songs from the new playlist with user-controlled variables.
+### Results
+1. **Cumulative Distribution Plots**: Visualizes the distribution of numerical attributes in the playlists.
+2. **Scatterplots**: Allows users to compare songs from both playlists based on selected variables.
+3. **Radar Plots**: Compares average values of musical attributes across playlists.
+4. **Bubble Charts**: Displays top artists and genres by count, illustrating their presence in the playlists.
+5. **Network Maps**: Shows artist collaborations to uncover relationships within the playlists.
+6. **Treemaps**: Highlights new recommended songs from common genres and artists.
+7. **Interactive Features**: Includes sliders for dynamic data visualization and hover effects for additional information.
 
 <br> <br>
 <p align="center">
@@ -35,3 +44,6 @@ This project aims to leverage Spotify data to compare and analyze two playlists.
   <img src="images/viz7.png" alt="Dashboard Screenshot" width="85%">
 </p>
 <br> <br>
+
+## Outcome
+The project results in an interactive dashboard that enables users to compare playlists, gain insights into their music tastes, and receive personalized recommendations based on shared interests. The focus is on creating meaningful and aesthetically pleasing visualizations that enhance the user experience.
