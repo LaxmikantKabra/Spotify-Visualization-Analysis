@@ -45,7 +45,7 @@ A pipeline is established to gather playlist hyperlinks, extract playlist data f
 </p>
 <br> <br>
 
-### Refer to Report.pdf and Presentation.pptx files for more details
-
 ## Outcome
 The project results in an interactive dashboard that enables users to compare playlists, gain insights into their music tastes, and receive personalized recommendations based on shared interests. The focus is on creating meaningful and aesthetically pleasing visualizations that enhance the user experience.
+
+<h2> <b>Refer to Report.pdf and Presentation.pptx files for more details</b>b</h2>
