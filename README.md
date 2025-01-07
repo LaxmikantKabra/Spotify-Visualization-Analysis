@@ -1,4 +1,4 @@
-# [Spotify Playlist comparison, analysis and Recommendation Dashboard](https://spotify-dash-mzem5f6vra-ue.a.run.app/)
+# Music Playlist Analysis
 
 ## Overview
 This project leverages Spotify data to compare and analyze two different playlists, exploring their similarities and differences. By utilizing various visualizations, the aim is to identify common trends and provide listeners with tailored recommendations for new songs. The primary goal is to create an interactive dashboard that helps users understand their music tastes and discover new music based on shared interests.
